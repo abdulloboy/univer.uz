@@ -51,3 +51,6 @@ Route::resource('lessons', App\Http\Controllers\LessonController::class);
 
 
 Route::resource('rooms', App\Http\Controllers\RoomController::class);
+
+
+Route::resource('users', App\Http\Controllers\UserController::class);
