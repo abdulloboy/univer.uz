@@ -40,3 +40,14 @@ Route::post(
     'generator_builder/generate-from-file',
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 )->name('io_generator_builder_generate_from_file');
+
+Route::resource('schedules', App\Http\Controllers\ScheduleController::class);
+
+
+Route::resource('groups', App\Http\Controllers\GroupController::class);
+
+
+Route::resource('lessons', App\Http\Controllers\LessonController::class);
+
+
+Route::resource('rooms', App\Http\Controllers\RoomController::class);
